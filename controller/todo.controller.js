@@ -53,7 +53,7 @@ module.exports = {
         });
     } else{
       todos.deleteOne()
-      res.json({message: "Data Deleted"})
+      res.json({message: "Succes deleted data"})
     }
     } catch (error) {
       res.status(500).json({ message: "Server Error" })
